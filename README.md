@@ -7,27 +7,19 @@ It uses curated datasets derived from **High Court of Australia cases** and **ke
 
 ## 📂 Folder Structure
 LANGCHAIN_RAG/
-│
-├── benchmark_data/
-│   ├── 300-question.csv
-│   ├── auslaw_1800benchmark_dataset.csv
-&nbsp;
-├── Cases processing/
-├── Cases source/
-├── faiss_index/
-&nbsp;
-├── benchmarkMCQ.py
-├── benchmarkTF.py
-├── benchmarkQA.py
-&nbsp;
-├── ingest.py
-├── query.py
-├── footnote_loader.py
-├── llmOnly.py
-├── llmAsAJudge.py
-&nbsp;
-├── requirements.txt
-└── .env.example
+| File / Folder | Description |
+|----------------|-------------|
+| **benchmark_data/** | Contains curated benchmark datasets and evaluation results. |
+| **Cases processing/** | Scripts and notebooks for raw legal PDF preprocessing. |
+| **faiss_index/** | Auto-generated FAISS index storage for vector embeddings. |
+| **benchmarkMCQ.py / benchmarkTF.py / benchmarkQA.py** | Generate different benchmark question formats (MCQ, True/False, QA). |
+| **ingest.py** | Embeds legal documents and builds the FAISS index. |
+| **query.py** | Handles RAG queries and retrieval logic. |
+| **footnote_loader.py** | Custom loader to preserve legal document footnotes. |
+| **llmOnly.py** | Closed-book (no retrieval) model benchmarking. |
+| **llmAsAJudge.py** | Evaluates model-generated answers using an LLM-as-judge approach. |
+| **requirements.txt** | List of Python dependencies required to run the project. |
+| **.env.example** | Template for environment variables (e.g., API keys). |
 
 
 ## 🧠 Key Features
