@@ -5,7 +5,7 @@ This repository provides the experimental pipeline for benchmarking **Large Lang
 The benchmark evaluates both **LLM-only (closed-book)** and **RAG (document-grounded)** configurations across multiple legal reasoning tasks — Multiple Choice (MCQ), True/False (TF), and open-ended Question Answering (QA).  
 It uses curated datasets derived from **High Court of Australia cases** and **key statutory sources**.
 
-## 📂 Folder Structure
+## 🧩 Key Components
 LANGCHAIN_RAG/
 | File / Folder | Description |
 |----------------|-------------|
