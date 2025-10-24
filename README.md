@@ -5,7 +5,7 @@ This repository provides the experimental pipeline for benchmarking **Large Lang
 The benchmark evaluates both **LLM-only (closed-book)** and **RAG (document-grounded)** configurations across multiple legal reasoning tasks — Multiple Choice (MCQ), True/False (TF), and open-ended Question Answering (QA).  
 It uses curated datasets derived from **High Court of Australia cases** and **key statutory sources**.
 
-## ⚙️ Folder Structure
+## 📂 Folder Structure
 LANGCHAIN_RAG/
 │
 ├── benchmark_data/
@@ -36,7 +36,7 @@ LANGCHAIN_RAG/
 - RAG and zero-shot baselines for comparison
 - Reproducible evaluation scripts (for each question type)
 
-## 📊 Data
+## 📊 Legal Data
 - **High Court Cases:** 7 major contract law precedents
 - **Statutes:** 3 key Acts (Insurance Contracts Act 1984, Independent Contractors Act 2006, Contracts Review Act 1980)
 
