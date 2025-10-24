@@ -1,0 +1,15 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-openai
+langchain-community
+langchain-text-splitters
+
+# PDF loading
+pypdf
+
+# Vector store (FAISS is lightweight and easy to start with)
+faiss-cpu
+
+# Environment variable loader (for API keys)
+python-dotenv
