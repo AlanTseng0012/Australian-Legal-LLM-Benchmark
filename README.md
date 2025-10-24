@@ -9,7 +9,8 @@ LANGCHAIN_RAG/
 | File / Folder | Description |
 |----------------|-------------|
 | **benchmark_data/** | Contains curated benchmark datasets and evaluation results. |
-| **Cases processing/** | Scripts and notebooks for raw legal PDF preprocessing. |
+| **Cases processing/** | Where scripts load and process PDFs during runtime. |
+| **Cases source/** | Place PDFs here to be used by the benchmarking pipeline. |
 | **faiss_index/** | Auto-generated FAISS index storage for vector embeddings. |
 | **benchmarkMCQ.py / benchmarkTF.py / benchmarkQA.py** | Generate different benchmark question formats (MCQ, True/False, QA). |
 | **ingest.py** | Embeds legal documents and builds the FAISS index. |
