@@ -9,25 +9,25 @@ It uses curated datasets derived from **High Court of Australia cases** and **ke
 LANGCHAIN_RAG/
 │
 ├── benchmark_data/
-│ ├── 300-question.csv # Full benchmark question set (source, question, type, answer)
-│ ├── auslaw_1800benchmark_dataset.csv # Model-level evaluation results (1800 scored responses)
-│
-├── Cases processing/ # Raw legal PDF preprocessing
-├── Cases source/ # Reference materials (optional, not for public repo)
-├── faiss_index/ # Local FAISS vector storage (auto-generated)
-│
-├── benchmarkMCQ.py # Generate MCQ items
-├── benchmarkTF.py # Generate True/False items
-├── benchmarkQA.py # Generate QA items
-│
-├── ingest.py # Build FAISS index with embeddings
-├── query.py # Query RAG pipeline for question answering
-├── footnote_loader.py # Custom PDF loader preserving legal footnotes
-├── llmOnly.py # Closed-book baseline evaluation
-├── llmAsAJudge.py # LLM-as-judge scoring and comparison
-│
-├── requirements.txt # Python dependencies
-└── .env.example # Example environment variables
+│   ├── 300-question.csv
+│   ├── auslaw_1800benchmark_dataset.csv
+&nbsp;
+├── Cases processing/
+├── Cases source/
+├── faiss_index/
+&nbsp;
+├── benchmarkMCQ.py
+├── benchmarkTF.py
+├── benchmarkQA.py
+&nbsp;
+├── ingest.py
+├── query.py
+├── footnote_loader.py
+├── llmOnly.py
+├── llmAsAJudge.py
+&nbsp;
+├── requirements.txt
+└── .env.example
 
 
 ## 🧠 Key Features
