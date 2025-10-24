@@ -2,8 +2,7 @@
 This repository provides the experimental pipeline for benchmarking **Large Language Models (LLMs)** and **Retrieval-Augmented Generation (RAG)** systems in the context of **Australian contract law**.
 
 ## 📘 Overview
-The benchmark evaluates both **LLM-only (closed-book)** and **RAG (document-grounded)** configurations across multiple legal reasoning tasks — Multiple Choice (MCQ), True/False (TF), and open-ended Question Answering (QA).  
-It uses curated datasets derived from **High Court of Australia cases** and **key statutory sources**.
+The benchmark evaluates both **LLM-only (closed-book)** and **RAG (document-grounded)** configurations across multiple legal reasoning tasks — Multiple Choice (MCQ), True/False (TF), and open-ended Question Answering (QA). It uses curated datasets derived from **High Court of Australia cases** and **key statutory sources**.
 
 ## 🧩 Key Components
 LANGCHAIN_RAG/
